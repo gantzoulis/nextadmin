@@ -3,7 +3,7 @@ import MenuLink from "./menuLink/menuLink";
 import styles from "./sidebar.module.css";
 
 import {
-  MdDashboard,MdSupervisedUserCircle
+  MdDashboard,MdSupervisedUserCircle, MdLogout,MdHelpCenter,
 } from "react-icons/md";
 
 const menuItems = [
@@ -49,7 +49,12 @@ const menuItems = [
         title: "Administration",
         path: "/subscriptions",
         icon: <MdSupervisedUserCircle />,
-      }
+      },
+      {
+        title: "Help",
+        path: "/help",
+        icon: <MdHelpCenter />,
+      },
     ],
   }
 ];
@@ -79,6 +84,7 @@ const Sidebar = () => {
           ))
         }
       </ul>
+      <button className={styles.logout}><MdLogout /> Logout </button>
     </div>
   )
 }
