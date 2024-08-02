@@ -1,54 +1,58 @@
-.container{
+.container {
     position: fixed;
-}
-
-.item {
-    position: relative;
-    padding: 20px 0px;
+  }
+  
+  .item {
+    background: linear-gradient(to top, #182237, #253352);
+    padding: 20px 24px;
     border-radius: 10px;
     margin-bottom: 20px;
-    background-image: linear-gradient(#253352, #182237); 
-   
-}
-
-.bgContainer {
+    position: relative;
+  }
+  
+  .bgContainer {
     position: absolute;
-    bottom: 0;
     right: 0;
+    bottom: 0;
     width: 50%;
     height: 50%;
-}
-
-.bg{
+  }
+  
+  .bg {
     object-fit: contain;
     opacity: 0.2;
-}
-
-.texts {
+  }
+  
+  .texts {
     display: flex;
     flex-direction: column;
     gap: 24px;
-}
-
-.notification{
+  }
+  
+  .notification {
     font-weight: bold;
-}
-
-.title{
+  }
+  
+  .subtitle {
+    color: var(--textSoft);
     font-weight: 500;
     font-size: 12px;
+  }
+  
+  .desc {
     color: var(--textSoft);
-}
-
-.button {
+    font-size: 14px;
+  }
+  
+  .button {
     padding: 10px;
     display: flex;
     align-items: center;
     gap: 10px;
+    width: max-content;
     background-color: #5d57c9;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    width: max-content;
-}
+  }
