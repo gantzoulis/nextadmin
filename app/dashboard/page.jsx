@@ -3,6 +3,7 @@ import Chart from "../ui/dashboard/chart/chart";
 import styles from "../ui/dashboard/dashboard.module.css";
 import Payments from "../ui/dashboard/payments/payments";
 import Rightbar from "../ui/dashboard/rightbar/rightbar";
+import Subscriptions from "../ui/dashboard/subscriptions/subscriptions";
 
 const Dashboard = () => {
   return (
@@ -13,6 +14,7 @@ const Dashboard = () => {
           <Card />
           <Card />
         </div>
+        <Subscriptions/>
         <Payments />
         <Chart />
       </div>
