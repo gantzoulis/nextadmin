@@ -25,8 +25,10 @@ const Rightbar = () => {
             Watch
           </button>
         </div>
+      </div>
+      <div className={styles.item}>
         <div className={styles.texts}>
-          <span className={styles.notification}> Available Now </span>
+          <span className={styles.notification}> Comming Next </span>
           <h3 className={styles.title}>How to use this version of the admin Dashboard</h3>
           <span className={styles.subtitle}> Takes 4 minutes to learn</span>
           <p className={styles.description}>
