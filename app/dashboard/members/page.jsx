@@ -2,6 +2,7 @@ import styles from "@/app/ui/dashboard/members/members.module.css";
 import Search from "@/app/ui/dashboard/search/search";
 import Image from "next/image";
 import Link from "next/link";
+import Pagination from "@/app/ui/dashboard/pagination/pagination";
 
 const MembersPage = () => {
   return (
@@ -48,6 +49,7 @@ const MembersPage = () => {
           </tr>
         </tbody>
       </table>
+      <Pagination />
     </div>
   )
 }
