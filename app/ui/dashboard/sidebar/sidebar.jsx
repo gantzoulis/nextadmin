@@ -32,7 +32,7 @@ const menuItems = [
       },
       {
         title: "Subscriptions",
-        path: "/subscriptions",
+        path: "/dashboard/subscriptions",
         icon: <MdSupervisedUserCircle />,
       }
     ],
